@@ -1,0 +1,52 @@
+body {
+    padding: 10px 70px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.main__item {
+    border: orange 1px solid;
+    background: orange;
+    padding: 10px;
+}
+
+.main__item:not(:first-child) {
+    margin-top: 10px;
+}
+
+.item {
+    border: rgb(246, 207, 134) 3px solid;
+    border-radius: 10px;
+    background: rgb(246, 221, 175);
+    padding: 10px 20px;
+}
+
+.item:not(:first-child) {
+    margin-top: 10px;
+}
+
+.pag__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.pag__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 4px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    background: rgb(251, 222, 94);
+}
